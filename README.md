@@ -47,4 +47,4 @@ npx serve .
 
 ## Contact
 
-**Kelvin Eduful** — [keduful@st.ug.edu.gh](mailto:keduful@st.ug.edu.gh) — [github.com/kevin2-cyber](https://github.com/kevin2-cyber)
+**Kelvin Eduful** — [kieduful47@gmail.com](mailto:kieduful47@gmail.com) — [github.com/kevin2-cyber](https://github.com/kevin2-cyber)
