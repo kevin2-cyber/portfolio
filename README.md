@@ -4,7 +4,7 @@ A personal portfolio website built with vanilla HTML, CSS, and JavaScript. Featu
 
 ## Live Demo
 
-> Deploy via GitHub Pages: `Settings → Pages → Branch: main → / (root)`
+[https://kevin2-cyber.github.io/portfolio](https://kevin2-cyber.github.io/portfolio)
 
 ## Features
 
