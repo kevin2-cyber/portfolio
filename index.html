@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kelvin Eduful — Software Developer & Computer Science Student at the University of Ghana">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <title>Kelvin Eduful | Portfolio</title>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">KE<span>.</span></a>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+                <i class="fas fa-moon"></i>
+            </button>
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <p class="hero-greeting">Hi there, I'm</p>
+            <h1 class="hero-name">Kelvin Eduful</h1>
+            <h2 class="hero-title">
+                <span class="typed-text" id="typed-text"></span><span class="cursor">|</span>
+            </h2>
+            <p class="hero-desc">
+                A passionate Computer Science student at the University of Ghana, building elegant digital solutions and turning ideas into reality through clean, efficient code.
+            </p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-outline">Get In Touch</a>
+            </div>
+            <div class="hero-socials">
+                <a href="https://github.com/kevin2-cyber" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="mailto:keduful@st.ug.edu.gh" aria-label="Email"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="avatar-ring">
+                <div class="avatar-placeholder">
+                    <i class="fas fa-user"></i>
+                </div>
+            </div>
+            <div class="blob"></div>
+        </div>
+        <a href="#about" class="scroll-down" aria-label="Scroll down">
+            <i class="fas fa-chevron-down"></i>
+        </a>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <div class="container">
+            <h2 class="section-title">About <span>Me</span></h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>I'm a Computer Science student at the <strong>University of Ghana</strong>, passionate about software development, open source, and building products that make a difference. I love tackling complex problems and learning new technologies along the way.</p>
+                    <p>When I'm not writing code, I enjoy exploring algorithms, contributing to open-source projects, and collaborating with fellow developers to create impactful solutions.</p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <span class="stat-number" data-target="10">0</span>+
+                            <span class="stat-label">Projects</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number" data-target="3">0</span>+
+                            <span class="stat-label">Years Coding</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number" data-target="5">0</span>+
+                            <span class="stat-label">Technologies</span>
+                        </div>
+                    </div>
+                    <a href="#contact" class="btn btn-primary">Let's Work Together</a>
+                </div>
+                <div class="about-cards">
+                    <div class="info-card">
+                        <i class="fas fa-graduation-cap"></i>
+                        <h3>Education</h3>
+                        <p>BSc Computer Science<br>University of Ghana</p>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Location</h3>
+                        <p>Accra, Ghana</p>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-briefcase"></i>
+                        <h3>Status</h3>
+                        <p>Open to Internships &amp; Opportunities</p>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-code"></i>
+                        <h3>Focus</h3>
+                        <p>Web Development &amp; Software Engineering</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section section-alt" id="skills">
+        <div class="container">
+            <h2 class="section-title">My <span>Skills</span></h2>
+            <p class="section-subtitle">Technologies and tools I work with</p>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3><i class="fas fa-laptop-code"></i> Frontend</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">React</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-server"></i> Backend</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">REST APIs</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-database"></i> Database</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">PostgreSQL</span>
+                        <span class="skill-tag">Firebase</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-tools"></i> Tools</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">GitHub</span>
+                        <span class="skill-tag">VS Code</span>
+                        <span class="skill-tag">Linux</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section" id="projects">
+        <div class="container">
+            <h2 class="section-title">My <span>Projects</span></h2>
+            <p class="section-subtitle">Some things I've built</p>
+            <div class="projects-grid">
+
+                <article class="project-card">
+                    <div class="project-icon"><i class="fas fa-globe"></i></div>
+                    <div class="project-body">
+                        <h3>Portfolio Website</h3>
+                        <p>A personal portfolio website built with HTML, CSS, and vanilla JavaScript featuring dark mode and smooth animations.</p>
+                        <div class="project-tags">
+                            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                        </div>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/kevin2-cyber" target="_blank" rel="noopener"><i class="fab fa-github"></i> Code</a>
+                        <a href="#" class="disabled"><i class="fas fa-external-link-alt"></i> Demo</a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-icon"><i class="fas fa-tasks"></i></div>
+                    <div class="project-body">
+                        <h3>Task Manager App</h3>
+                        <p>A full-stack task management application with user authentication, CRUD operations, and a clean responsive UI.</p>
+                        <div class="project-tags">
+                            <span>Python</span><span>Flask</span><span>MySQL</span>
+                        </div>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/kevin2-cyber" target="_blank" rel="noopener"><i class="fab fa-github"></i> Code</a>
+                        <a href="#" class="disabled"><i class="fas fa-external-link-alt"></i> Demo</a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-icon"><i class="fas fa-shopping-cart"></i></div>
+                    <div class="project-body">
+                        <h3>E-Commerce UI</h3>
+                        <p>A responsive e-commerce front-end with product listings, cart functionality, and checkout flow built in React.</p>
+                        <div class="project-tags">
+                            <span>React</span><span>CSS</span><span>JavaScript</span>
+                        </div>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/kevin2-cyber" target="_blank" rel="noopener"><i class="fab fa-github"></i> Code</a>
+                        <a href="#" class="disabled"><i class="fas fa-external-link-alt"></i> Demo</a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-icon"><i class="fas fa-brain"></i></div>
+                    <div class="project-body">
+                        <h3>Algorithm Visualizer</h3>
+                        <p>An interactive web app that animates popular sorting and graph algorithms to aid in learning data structures.</p>
+                        <div class="project-tags">
+                            <span>JavaScript</span><span>Canvas</span><span>HTML</span>
+                        </div>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/kevin2-cyber" target="_blank" rel="noopener"><i class="fab fa-github"></i> Code</a>
+                        <a href="#" class="disabled"><i class="fas fa-external-link-alt"></i> Demo</a>
+                    </div>
+                </article>
+
+            </div>
+            <div class="projects-cta">
+                <a href="https://github.com/kevin2-cyber" target="_blank" rel="noopener" class="btn btn-outline">
+                    <i class="fab fa-github"></i> See More on GitHub
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section section-alt" id="contact">
+        <div class="container">
+            <h2 class="section-title">Get In <span>Touch</span></h2>
+            <p class="section-subtitle">Have a question or want to work together? Drop me a message.</p>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <a href="mailto:keduful@st.ug.edu.gh">keduful@st.ug.edu.gh</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Accra, Ghana</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-github"></i>
+                        <div>
+                            <h4>GitHub</h4>
+                            <a href="https://github.com/kevin2-cyber" target="_blank" rel="noopener">kevin2-cyber</a>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contact-form" novalidate>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="your@email.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">
+                        <i class="fas fa-paper-plane"></i> Send Message
+                    </button>
+                    <p class="form-status" id="form-status"></p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>Designed &amp; Built by <strong>Kelvin Eduful</strong></p>
+            <p class="footer-copy">&copy; <span id="year"></span> All rights reserved.</p>
+        </div>
+    </footer>
+
+    <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
